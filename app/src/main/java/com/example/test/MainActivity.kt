@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         onChangeListener(myRef)
 
     }
-
+//dfgdfg
     private fun onChangeListener(gRef:DatabaseReference){
         gRef.addValueEventListener(object :ValueEventListener{
             override fun onDataChange(snapshot: DataSnapshot) {
