@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         }
         onChangeListener(myRef)
 
-    }
+    }//fghfgh
 //dfgdfg
     private fun onChangeListener(gRef:DatabaseReference){
         gRef.addValueEventListener(object :ValueEventListener{
